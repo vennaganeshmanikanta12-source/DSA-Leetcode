@@ -1,13 +1,8 @@
 class Solution:
     def plusOne(self, digits: list[int]) -> list[int]:
-        a,t=0,0
-        for i in digits[::-1]:
-            t+=(i*10**a)
-            a+=1
-        t=t+1
-        b=[]
-        while(t>0):
-            c=t%10
-            b.append(c)
-            t//=10
-        return b[::-1]
+        for i in range(len(digits) - 1, -1, -1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            digits[i] = 0
+        return [1] + digits
