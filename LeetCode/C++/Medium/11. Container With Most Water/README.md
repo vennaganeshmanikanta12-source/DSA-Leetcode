@@ -1,6 +1,6 @@
 # 📝 11. Container With Most Water (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/container-with-most-water/?envType=problem-list-v2&envId=array)
+🔗 [Problem Link](https://leetcode.com/problems/container-with-most-water/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
@@ -8,8 +8,8 @@
 Array, Two Pointers, Greedy
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 2 ms
+- **Memory:** 63 MB
 
 ---
 
@@ -23,7 +23,7 @@ Return  *the maximum amount of water a container can store* .
 
 **Notice**  that you may not slant the container.
 
-OriginalC++ **Example 1:**
+**Example 1:**
 
  ![image](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg) 
 
